@@ -14,4 +14,4 @@
 
 
 def speak_to_grandma(speak)
-  if speak.upcase
+  if speak_to_grandma == ""
