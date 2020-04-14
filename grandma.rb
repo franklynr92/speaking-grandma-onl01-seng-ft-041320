@@ -14,11 +14,7 @@
 def speak_to_grandma(greeting)
   if greeting == "Hi Nana, how are you?"
     puts "HUH?! SPEAK UP, SONNY!"
-    elsif greeting == "I love you grandma"
-    puts "HUH?! SPEAK UP, SONNY!"
   elsif greeting == "HOW ARE YOU GRANDMA?"
-    puts "NO, NOT SINCE 1938!"
-    elsif greeting == "HOW ARE YOU GRANDMA?"
     puts "NO, NOT SINCE 1938!"
   else greeting == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN"
