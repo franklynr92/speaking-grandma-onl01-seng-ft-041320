@@ -13,6 +13,10 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(speak)
+def speak_to_grandma()
   if speak_to_grandma() == "I love you grandma"
-    puts ""
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif speak_to_grandma() == "HOW ARE YOU GRANDMA?"
+    puts "NO, NOT SINCE 1938!"
+  elsif speak_to_grandma() == "I LOVE YOU GRANDMA"
+    puts "NO, NOT SINCE 1938!"
