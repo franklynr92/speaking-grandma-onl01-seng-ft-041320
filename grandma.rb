@@ -14,4 +14,5 @@
 
 
 def speak_to_grandma(speak)
-  if speak_to_grandma == ""
+  if speak_to_grandma() == "I love you grandma"
+    puts ""
