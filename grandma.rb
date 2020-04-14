@@ -14,9 +14,9 @@
 def speak_to_grandma(greeting)
   if greeting == "Hi Nana, how are you?"
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif greeting == "HOW ARE YOU GRANDMA?".upcase
+  elsif  greeting.upcase == "HOW ARE YOU GRANDMA?"
     puts "NO, NOT SINCE 1938!"
-  else greeting == "I LOVE YOU GRANDMA!".upcase
+  else  greeting.upcase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN"
   end
 
@@ -24,5 +24,10 @@ end
 
 def speak_to_grandma
 if greeting.upcase == "I LOVE YOU GRANDMA"
-  puts "I LOVE YOU TOO PUMPKIN
+  puts "I LOVE YOU TOO PUMPKIN"
+   elsif  greeting.upcase == "HOW ARE YOU GRANDMA?"
+    puts "NO, NOT SINCE 1938!"
+  else  greeting.upcase == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN"
+  end
 end
