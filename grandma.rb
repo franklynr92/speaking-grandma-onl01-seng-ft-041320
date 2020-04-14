@@ -24,7 +24,7 @@
 
 
 def speak_to_grandma(greeting)
-if greeting.upcase == "I LOVE YOU GRANDMA"
+if greeting.upcase == "I LOVE YOU GRANDMA!"
    "I LOVE YOU TOO PUMPKIN!"
   end
 end
