@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(greeting)
-  if greeting == "I love you grandma"
+  if greeting == "Hi Nana, how are you?"
     puts "HUH?! SPEAK UP, SONNY!"
     elsif greeting == "I love you grandma"
     puts "HUH?! SPEAK UP, SONNY!"
