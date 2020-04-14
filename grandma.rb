@@ -25,6 +25,6 @@
 
 def speak_to_grandma(greeting)
 if greeting.upcase == "I LOVE YOU GRANDMA"
-  puts "I LOVE YOU TOO PUMPKIN!"
+   "I LOVE YOU TOO PUMPKIN!"
   end
 end
