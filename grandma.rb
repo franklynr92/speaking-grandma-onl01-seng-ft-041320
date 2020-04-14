@@ -26,9 +26,9 @@
 def speak_to_grandma(greeting)
 if greeting.upcase == "I LOVE YOU GRANDMA!"
   "I LOVE YOU TOO PUMPKIN!"
-   else  greeting.upcase == "Hi Nana, how are you?"
+   elsif  greeting.upcase == "Hi Nana, how are you?"
      puts "HUH?! SPEAK UP, SONNY!"
-  elsif  greeting.upcase == "HOW ARE YOU GRANDMA?"
+  else  greeting.upcase == "HOW ARE YOU GRANDMA?"
      "NO, NOT SINCE 1938!"
   end
 end
